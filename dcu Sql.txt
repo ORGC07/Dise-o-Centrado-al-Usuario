@@ -1,0 +1,13 @@
+Create Database DCU
+Use Dcu
+
+CREATE TABLE TablaDCU (
+    UserNameDCU Nvarchar(30),
+    PasswordDCU Nvarchar(30),
+    EmailDCU Nvarchar(30),
+	TelefonoDCU Nvarchar(10),
+	TiempoDCU date
+);
+
+INSERT INTO TablaDCU(UserNameDCU, PasswordDCU,EmailDCU, TelefonoDCU)
+VALUES ('Admin','Admin','Omarrafaelgc@gmail.com','8295460327');
